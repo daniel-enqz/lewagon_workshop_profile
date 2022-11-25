@@ -1,0 +1,51 @@
+@import url("components/containers.css");
+@import url("components/cards.css");
+@import url("components/animations.css");
+
+body {
+	background-color: rgb(245, 245, 245);
+}
+
+@media (max-width: 960px) {
+  /* Para una pantalla < 960px, se leerá este CSS */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* Para una pantalla < 720px, se leerá este CSS */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* Para una pantalla < 540px, se leerá este CSS */
+  .container {
+    width: 300px;
+  }
+}
+
+h1, h2, h3, p, li {
+  font-family: "Helvetica", sans-serif; /* si todos los encabezados usan Helvetica */
+}
+
+.margin-left-30 {
+  margin-left: 30px;
+}
+
+.margin-right-5 {
+  margin-right: 5px;
+}
+
+
+.text-black {
+  color: black
+}
+
+.text-blue {
+  color: #003cff
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}

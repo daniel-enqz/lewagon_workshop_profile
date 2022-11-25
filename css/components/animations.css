@@ -1,0 +1,12 @@
+.right-movement-animation:hover {
+  transform: translate(10px);
+}
+
+.size-animation:hover {
+  font-size: 35px;
+}
+
+.blurr-filter {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}

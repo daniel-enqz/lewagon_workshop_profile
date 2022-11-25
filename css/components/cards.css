@@ -1,0 +1,40 @@
+.card-white {
+  background: white;                   
+  padding: 30px;
+  margin: 35px 0px;                            
+  border-radius: 10px;                        
+  box-shadow: 0 0  100px rgba(209, 219, 231,0.7);
+  transition: 1s ease;
+  }
+
+  #profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 7%;
+  box-shadow: 0 10px 30px rgb(114, 110, 110)
+}
+
+.presentation {
+  display: flex;
+  align-items: center;
+}
+
+#name_heading {
+  font-weight: 600;
+  color: #072227;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.links {
+  margin: 100px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.link-icons {
+  color: black;
+  font-size: 30px;
+  margin: 0 25px;
+  transition: 0.3s ease;
+}
