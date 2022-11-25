@@ -49,3 +49,7 @@ h1, h2, h3, p, li {
 .text-decoration-none {
   text-decoration: none;
 }
+
+.cursor-pointer {
+  cursor: pointer;
+}
